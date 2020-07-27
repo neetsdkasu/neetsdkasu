@@ -7,7 +7,7 @@
 I wanna be a coder?
 I may be able to write FizzBuzz?
 Programming is very hard for me...
-So sorry, my poor programs can not help you.
+So sorry, my poor skills and programs can not help you.
 ```
 -->
 
