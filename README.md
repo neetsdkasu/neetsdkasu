@@ -2,9 +2,17 @@
 はいぜあ
 
 
+<!--
+```
+I wanna be a coder?
+I may be able to write FizzBuzz?
+Programming is very hard for me...
+So sorry, my poor skills and programs can not help you.
+```
+-->
 
 
-
+<!--
 **neetsdkasu/neetsdkasu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -17,4 +25,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-
+-->
