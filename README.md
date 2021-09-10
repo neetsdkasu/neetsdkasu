@@ -50,6 +50,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ... he/him/his  
 - ⚡ Fun fact: ... NOTHING!!!!!!   
 -->
-
-[![neetsdkasu's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=neetsdkasu)](https://github.com/anuraghazra/github-readme-stats)
-
