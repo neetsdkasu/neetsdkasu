@@ -62,3 +62,65 @@
 | 大学卒業     | 平成20年3月 | 2008年3月 |
 
 
+###### ページの特定テキスト部分にジャンプさせるURL記述？
+
+```
+URL末尾に #:~:text=ほげほげ と付ける
+例
+https://neetsdkasu.github.io/links.html#:~:text=gist
+
+```
+
+
+
+##### goフォーマッタをサブディレクトリ（？）のほうまで適用するやり方
+
+
+```bash
+go fmt ./...
+```
+
+
+##### IPアドレスやホスト名を調べるコマンド（？）
+
+```
+dig -x IPアドレス
+nslookup IPアドレス
+whois IPアドレス
+whois ホスト名
+```
+
+
+##### ダウンロードしたファイルのSHAのハッシュ確認方法（？）
+
+
+```
+SHA256ならsha256sum
+SHA512ならsha512sum
+
+ハッシュとファイル名だけが分かってるとき
+echo ハッシュ ファイル名 | sha256sum -c -
+
+ハッシュとファイル名が並ぶファイルがあるとき(例えばchecksum.txtというファイルなら)
+sha256sum -c checksum.txt
+
+```
+
+
+##### ダウンロードしたファイルのGPG（署名？）とかいうやつの検証方法（？）
+
+
+```
+まず署名した人（？）の情報を登録しとく
+ファイルで提供されているなら(ファイル名がfoobar-key.gpg.ascii.txtとするなら)
+gpg --import foobar-key.gpg.ascii.txt
+
+署名した人（？）の情報がファイルでなくキーサーバー（？）とかいうとこから取得する必要あるなら
+gpg --keyserver キーサーバー名 --recv-key 署名の人のIDぽいやつ
+
+
+検証用のファイル（拡張子がsigとかascとかある？）を使って検証するらしい
+（ダウンロードしたファイルがfoobar.txtで検証用ファイルがfoobar.txt.sigで提供されてるとすると）
+gpg --verify foobar.txt.sig
+
+```
