@@ -116,8 +116,7 @@ sha256sum -c checksum.txt
 gpg --import foobar-key.gpg.ascii.txt
 
 署名した人（？）の情報がファイルでなくキーサーバー（？）とかいうとこから取得する必要あるなら
-gpg --keyserver キーサーバー名 --recv-key 署名の人のIDぽいやつ
-
+gpg --keyserver キーサーバー名 --recv-key 署名の人のID（ハッシュ？）ぽいやつ
 
 検証用のファイル（拡張子がsigとかascとかある？）を使って検証するらしい
 （ダウンロードしたファイルがfoobar.txtで検証用ファイルがfoobar.txt.sigで提供されてるとすると）
