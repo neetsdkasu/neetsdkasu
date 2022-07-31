@@ -12,12 +12,12 @@
 -------------------------------
 ### げーむ
 
-##### mine sweeper
+#### mine sweeper
 有名なマインスイーパのクローン（？）  
 https://neetsdkasu.github.io/game/minesweeper/  
 
 
-##### sum10 puzzle
+#### sum10 puzzle
 和を10にして消していくゲーム  
 https://neetsdkasu.github.io/game/sum10/  
 
@@ -25,7 +25,7 @@ https://neetsdkasu.github.io/game/sum10/
 -------------------------------
 ### つーる
 
-##### DQ-Walk Hearts
+#### DQ-Walk Hearts
 ドラゴンクエストウォーク（DQウォーク）のこころセットを雑に求めるツール  
 ※なお、こころのデータはセルフサービス…  
 https://neetsdkasu.github.io/misc/dqwalkhearts.html  
