@@ -45,7 +45,7 @@ https://neetsdkasu.github.io/misc/dqwalkhearts.html?demo=1
 -------------------------------
 ### 個人的なメモ
 
-
+<details>
 
 ###### 明治維新でスーツとかの西洋文化を標準正装とするなら暦も西暦を標準にしろよクソ  
 
@@ -144,3 +144,5 @@ gpg --keyserver キーサーバー名 --recv-key 署名の人のID（ハッシ�
 gpg --verify foobar.txt.sig
 
 ```
+
+</details>
