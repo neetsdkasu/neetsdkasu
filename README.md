@@ -166,13 +166,13 @@ android create project --target <target-id> --name MyFirstApp \
 デバッグビルド
 ant debug
 
-デバッグビルドのアプリを実機へ新規インストール（antに登録されてるコマンドでも出来た木がする）
+デバッグビルドのアプリを実機へ新規インストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする）
 adb install bin\MyFirstApp-debug.apk
 
-デバッグビルドのアプリを実機へ再インストール（antに登録されてるコマンドでも出来た木がする）
+デバッグビルドのアプリを実機へ再インストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする）
 adb install -r bin\MyFirstApp-debug.apk
 
-実機からアンインストール（antに登録されてるコマンドでも出来た木がする）
+実機からアンインストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする）
 adb uninstall com.example.myfirstapp
 
 開発作業をやめるときにバックグラウンドで稼動してる実機と通信するデバッグサーバーを停止（antやadbでコマンド実行すると起動するぽい？）
