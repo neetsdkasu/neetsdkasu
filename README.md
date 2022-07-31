@@ -155,7 +155,7 @@ id: Android-15
 Platform: Android 4.0.3
 API Level: 15
 
-ターゲット一覧を眺める（ここからターゲットを選ぶ）
+ターゲット一覧を眺める（ここからターゲットを選ぶ、まぁ現在はAndroid-15だが）
 android list targets
 
 ターゲットに対する新規プロジェクト
