@@ -177,6 +177,20 @@ adb uninstall com.example.myfirstapp
 
 開発作業をやめるときにバックグラウンドで稼動してる実機と通信するデバッグサーバーを停止（antやadbでコマンド実行すると起動するぽい？）
 adb kill-server
+
+android-sdk-windows\tools\ant\build.xml にあるコマンドぽいもの(targetタグの一部)
+ant helpを実行でこれらの説明が並ぶぽい
+
+ant clean
+ant release
+ant test
+ant lint
+ant debug install
+ant release install
+ant installd
+ant installr
+ant uninstall
+ant help
 ```
 
 </details>
