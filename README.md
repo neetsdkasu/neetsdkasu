@@ -145,4 +145,38 @@ gpg --verify foobar.txt.sig
 
 ```
 
+
+###### Androidアプリ作る
+
+
+```
+開発に使ってる実機環境
+id: Android-15
+Platform: Android 4.0.3
+API Level: 15
+
+ターゲット一覧を眺める（ここからターゲットを選ぶ）
+android list targets
+
+ターゲットに対する新規プロジェクト
+android create project --target <target-id> --name MyFirstApp \
+--path <path-to-workspace>/MyFirstApp --activity MainActivity \
+--package com.example.myfirstapp
+
+デバッグビルド
+ant debug
+
+デバッグビルドのアプリを実機へ新規インストール（antに登録されてるコマンドでも出来た木がする）
+adb install bin\MyFirstApp-debug.apk
+
+デバッグビルドのアプリを実機へ再インストール（antに登録されてるコマンドでも出来た木がする）
+adb install -r bin\MyFirstApp-debug.apk
+
+実機からアンインストール（antに登録されてるコマンドでも出来た木がする）
+adb uninstall com.example.myfirstapp
+
+開発作業をやめるときにバックグラウンドで稼動してる実機と通信するデバッグサーバーを停止（antやadbでコマンド実行すると起動するぽい？）
+adb kill-server
+```
+
 </details>
