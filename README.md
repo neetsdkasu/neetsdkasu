@@ -13,7 +13,7 @@
 ### げーむ
 
 #### mine sweeper
-有名なマインスイーパのクローン（？）  
+有名なマインスイーパというゲームぽいやつ  
 https://neetsdkasu.github.io/game/minesweeper/  
 
 
