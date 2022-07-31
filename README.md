@@ -192,7 +192,7 @@ ant installr
 ant uninstall
 ant help
 
-細かい設定に困ったら[unkocryptoリポジトリ](https://github.com/neetsdkasu/unkocrypto)のIDPWMemoICSを見る
+細かい設定に困ったらIDPWMemoICSを見る
 ```
 
 </details>
