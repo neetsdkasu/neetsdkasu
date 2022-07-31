@@ -166,7 +166,7 @@ android create project --target <target-id> --name MyFirstApp \
 デバッグビルド
 ant debug
 
-デバッグビルドのアプリを実機へ新規インストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする）
+デバッグビルドのアプリを実機へ新規インストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする、おそらくant debug install 
 adb install bin\MyFirstApp-debug.apk
 
 デバッグビルドのアプリを実機へ再インストール（ant用ビルドスクリプトに登録されてるコマンドでも出来た木がする）
