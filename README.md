@@ -196,6 +196,27 @@ ant help
 
 android create projectしたあとに最初に ant debug で空ビルドしてから ant lint をやっておく
 この際に出るエラーはIDPWMemoICSの設定ファイル等を参考にする
+たいていの場合、
+AndroidManifest.xmlの
+  manifestタグ下に
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15" />
+    を書いておく
+  applicationタグの属性に
+    android:allowBackup="false"
+    を追加しとく
+local.propaertiesの
+　　sdk.dirの値のパスのコロン(:)の文字をエスケープ文字(\)でエスケープする
+ant.propertiesに
+  java.compilerargs=-Xlint -Xlint:-options
+  の行を書き込む
+lint.xmlを作成して
+  <?xml version="1.0" encoding="UTF-8"?>
+　　<lint>
+      <issue id="IconMissingDensityFolder" severity="ignore" />
+      <issue id="GoogleAppIndexingWarning" severity="ignore" />
+      <issue id="OldTargetApi" severity="ignore" />
+  </lint>
+  を書いておく
 ```
 
 </details>
