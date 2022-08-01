@@ -194,7 +194,7 @@ ant help
 
 細かい設定に困ったらIDPWMemoICSを見る
 
-android create projectしたあとに最初に ant lint をやっておく
+android create projectしたあとに最初に ant debug で空ビルドしてから ant lint をやっておく
 この際に出るエラーはIDPWMemoICSの設定ファイル等を参考にする
 ```
 
