@@ -217,6 +217,23 @@ lint.xmlを作成して
       <issue id="OldTargetApi" severity="ignore" />
   </lint>
   を書いておく
+
+USBデバッグは
+adb logcat -d > logfile.txt
+とコマンドやって、リダイレクトでファイルに書き込んでから眺める
+adb logcat だけだとリアルタイムでログが流れるが、辛い
+自分のアプリだけの眺めるなら、Log.d("MyApp", "hoge") とかしてるなら
+adb logcat -d ActivityManager:I MyApp:D *:S
+リアルタイムなら
+adb logcat ActivityManager:I MyApp:D *:S
+とコマンド打てばOK（ :D はデバッグレベルのログ表示、　:S は一切見えなくする ）
+*:Sとすることでログに出てくる関心のない他のアプリのログを見えなくできる･･･
+
+ヘルプ
+android --help
+adb help
+adb logcat --help
+ant -help   これはant自身のヘルプ
 ```
 
 </details>
