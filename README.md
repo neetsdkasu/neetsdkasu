@@ -219,13 +219,11 @@ lint.xmlを作成して
   を書いておく
 
 USBデバッグは
-adb logcat -d > logfile.txt
-とコマンドやって、リダイレクトでファイルに書き込んでから眺める
-adb logcat だけだとリアルタイムでログが流れるが、辛い
 自分のアプリだけの眺めるなら、Log.d("MyApp", "hoge") とかしてるなら
-adb logcat -d ActivityManager:I MyApp:D *:S
-リアルタイムなら
+リアルタイムで眺めるなら
 adb logcat ActivityManager:I MyApp:D *:S
+直近の情報だけでいいならリダイレクトでlogfile.txtに書き込むなら
+adb logcat -d ActivityManager:I MyApp:D *:S > logfile.txt
 とコマンド打てばOK（ :D はデバッグレベルのログ表示、　:S は一切見えなくする ）
 *:Sとすることでログに出てくる関心のない他のアプリのログを見えなくできる･･･
 
