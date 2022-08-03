@@ -223,9 +223,16 @@ USBデバッグは
 リアルタイムで眺めるなら
 adb logcat ActivityManager:I MyApp:D *:S
 直近の情報だけでいいならリダイレクトでlogfile.txtに書き込むなら
-adb logcat -d ActivityManager:I MyApp:D *:S > logfile.txt
+adb logcat -d ActivityManager:I MyApp:D AndroidRuntime:E *:S > logfile.txt
 とコマンド打てばOK（ :D はデバッグレベルのログ表示、　:S は一切見えなくする ）
 *:Sとすることでログに出てくる関心のない他のアプリのログを見えなくできる･･･
+ActivityManagerはMyAppの起動とか見る
+AndroidRuntimeはMyAppの例外発生で異常終了とか…？
+
+リソースファイル(/res)を弄ったら
+ant clean
+をしたほうが良さそう
+ant cleanしないと反映されてない状況に遭遇したりしたし（ヌルポが出た）
 
 ヘルプ
 android --help
