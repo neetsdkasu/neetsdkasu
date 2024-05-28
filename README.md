@@ -5,8 +5,9 @@
  - 永遠の初心者･･･  
  - 成長のための努力しない永遠のノースキル･･･  
  - 永遠に何者にもなれない･･･  
- - GitHubのログインで[２段階認証](https://neetsdkasu.github.io/misc/totp.html)必須になった場合、neetsdkasuのアカウントは活動停止します･･･残念！  
+ - GitHubのログインで[２段階認証](https://neetsdkasu.github.io/misc/totp.html)必須になった場合、neetsdkasuのアカウントは活動停止します･･･残念！（sshによるリポジトリ操作はできるらしいが）  
  - 今まで無料で色々なサービスを使わせてくれてGitHubさんありがとう･･･
+ - 2024年6月末でpagesの旧方式の更新方法が終了するらしく、 https://neetsdkasu.github.io/ のsshのgit pushだけによる更新もできなくなるので終わりです…（Actionの設定をしてないため）  
 
 
 -------------------------------
