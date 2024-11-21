@@ -22,18 +22,6 @@ https://neetsdkasu.github.io/game/sum10/
 
 
 -------------------------------
-### つーる
-
-#### DQ-Walk Hearts
-ドラゴンクエストウォーク（DQウォーク）のこころセットを雑に求めるツール  
-※なお、こころのデータはセルフサービス…  
-https://neetsdkasu.github.io/misc/dqwalkhearts.html  
-
-デモ版（ダミーのこころのデータが用意されてる）  
-https://neetsdkasu.github.io/misc/dqwalkhearts.html?demo=1  
-
-
--------------------------------
 ### その他
 
  - GitHub https://neetsdkasu.github.io/
